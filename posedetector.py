@@ -37,7 +37,7 @@ class posedetector:
         keypoints = []
         for pose in poses_dict:
             # Extract keypoints for each pose
-            kp = [[p["x"], p["y"], p["confidence"]] for p in pose["keypoints"]]
+            keypoints = [[p["x"], p["y"], 1 if p["confidence"] >= threshold else 0] for p in pose["keypoints"]]
             keypoints.append(kp)
 
         keypoints_array = np.array(keypoints)
