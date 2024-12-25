@@ -50,10 +50,10 @@ class CheatDetection:
                 
             processed_embedding=tf.convert_to_tensor(embedding)
             # Predict cheating behavior
-            prediction = self.model.predict(processed_embedding, verbose=2 )
+            prediction = self.model.predict(processed_embedding, verbose=2)
             prediction = np.squeeze(prediction,0)
             if prediction[0] == np.max(prediction):
-                if prediction[0] >= 10000*prediction[1]:
+                if prediction[0] >= 3000*prediction[1]:
                     predicted_class = 0
                 else:
                     predicted_class = 1
