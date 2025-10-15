@@ -20,8 +20,8 @@
 ### 1. Clone the Repo
 
 ```bash
-git https://github.com/hoenizhuyn/VirtualProctor-for-anticheating.git
-cd  VirtualProctor-for-anticheating
+git https://github.com/hoenizhuyn/anticheating.git
+cd  anticheating
 ```
 ### 2. Install Dependencies
 
