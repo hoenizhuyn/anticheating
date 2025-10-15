@@ -3,8 +3,8 @@
 [Project proposal](https://docs.google.com/document/d/1PUzJkcLDxFbYRR6oJ0ql6Cc-tG1CB0NS91TuwV8VU8c/edit?tab=t.0)  
 
 - Utilized DaisyKit for pose estimation and keypoint extraction. 
-- Pose landmarks are standardized and stored in Pandas Dataframe. 
-- Implemented classification using Tensorflow tensors and Keras neural network, trained on Ubuntu WSL.
+- Pose landmarks are standardized with Numpy and stored in Pandas Dataframe. 
+- Embbed keypoints data and Implemented classification using Tensorflow tensors and Keras neural network respectively, trained on Ubuntu WSL.
 ---
 
 
